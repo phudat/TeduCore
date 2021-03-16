@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TeduCore.Data\TeduCore.Data.csproj" />
+    <ProjectReference Include="..\TeduCore.Infrastructure\TeduCore.Infrastructure.csproj" />
+    <ProjectReference Include="..\TeudCore.Utilities\TeudCore.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
